@@ -17,8 +17,8 @@ if len(sys.argv) != 4:
     """)
     sys.exit(1)
 
-ip = sys.argv[1]
-host = socket.gethostbyname(ip)
+name = sys.argv[1]
+host = socket.gethostbyname(name)
 port = int(sys.argv[2])
 thr = int(sys.argv[3])
 proxy_ip = '10.181.12.14'
